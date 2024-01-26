@@ -1,0 +1,392 @@
+/* Common CSS Start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,ol{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8;
+}
+/* Common CSS End */
+
+/* NavBar CSS Start */
+.navbar{
+    background: rgba(28, 30, 83, 1);
+    width: 100%;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    /* padding-right: var(--bs-navbar-nav-link-padding-x); */
+    /* padding-left: var(--bs-navbar-nav-link-padding-x); */
+    padding-left: 32px;
+    padding-right: 0px;
+    color: #BBBBCB;
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+.nav-link{
+    /* padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x); */
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #FFF;
+    transition: 0.5s;
+}
+.nav-button button{
+    margin-left: 48px;
+    padding: 16px 48px;
+    border-radius: 41px;
+    border: 2px solid rgba(244, 246, 252, 0.20);
+    background: transparent;
+    color: #FFF;
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+/* NavBar CSS End */
+
+/* Banner Part Start */
+#banner{
+    padding-top: 96px;
+    padding-bottom: 96px;
+    background: #F4F6FC;
+}
+.banner-title-part .upper-part{
+    color: var(--dark-blue, #282938);
+    opacity: 0.7;
+    width: 138px;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+.banner-title-part h2{
+    margin: 0 auto;
+    color: var(--dark-blue, #282938);
+    width: 504px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+    padding-top: 4px;
+    margin-bottom: 0px;
+}
+.banner-title-part .lower-part{
+    color: var(--dark-blue, #282938);
+    width: 733px;
+    margin: 0 auto;
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 0px;
+    padding-top: 24px;
+    opacity: 0.7;
+}
+.banner-title-part .social-links{
+    margin-top: 32px;
+    margin-left: 350px;
+}
+.banner-title-part .social-links a i{
+    color: black;
+    font-size: 20px;
+    padding-left: 26.67px; 
+    padding-bottom: 96px   
+}
+.banner-title-part .social-links a:first-child i{
+    padding-left: 0px;
+}
+/* Banner Part CSS End */
+
+/* Templates Part Start */
+#templates{
+    
+}
+.words ul li .Capital{
+    color: #2405F2;
+    font-family: 'Poppins',sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+.words ul li .capital{
+    padding-left: 35px;
+    color: #282938;
+    font-family: 'Poppins',sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    opacity: 0.7;
+}
+.words ul li:hover .capital{
+    color: #2405F2;
+    transition: 0.5s;
+}
+.box-one{
+    margin-top: 48px;
+}
+.box-two{
+    margin-top: 64px;
+}
+.box-one h3{
+    padding-top: 24px;
+    color: #282938;
+    font-family: 'Poppins',sans-serif;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    margin-bottom: 0px;    
+}
+.box-one .text{
+    margin-bottom: 0px;
+    padding-top: 12px;
+    color: var(--dark-blue, #282938);
+    width: 623px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: 0.7;
+}
+.box-one .portfolio{
+    color: #282938;
+    margin-bottom: 0px;
+    padding-top: 24px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+.box-two h3{
+    padding-top: 24px;
+    color: #282938;
+    font-family: 'Poppins',sans-serif;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    margin-bottom: 0px;    
+}
+.box-two .text{
+    margin-bottom: 0px;
+    padding-top: 12px;
+    color: var(--dark-blue, #282938);
+    width: 623px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: 0.7;
+}
+.box-two .portfolio{
+    color: #282938;
+    margin-bottom: 0px;
+    padding-top: 24px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+/* Build CSS Start */
+#build{
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+.build-title h2{
+    width: 844px;
+    margin: 0 auto;
+    color: #282938;
+    font-family: 'Poppins',sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+    margin-bottom: 0px;
+}
+.build-title p{
+    margin: 0 auto;
+    width: 562px;
+    color: #282938;
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 0px;
+    opacity: 0.7;
+    padding-top: 20px;
+}
+.build-btn{
+    margin-top: 40px;
+}
+.build-btn button{
+    padding: 16px 67px 16px 66px;
+    border-radius: 41px;
+    border: none;
+    background: #FCD980;
+    color: #1B1C2B;
+    font-family: 'Manrope',sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 177.778% */
+}
+/* Build Together CSS End */
+
+
+/* Footer Part CSS Start */
+#footer{
+    background: #1C1E53;
+}
+.footer-left{
+    padding-top: 96px;
+}
+.footer-left p{
+    opacity: 0.800000011920929;
+    color: var(--white, #FFF);
+    width: 399px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    padding-top: 22px;
+    margin-bottom: 0px;
+}
+.footer-right{
+    padding-top: 85px;
+    margin-left: 260px;
+}
+.footer-right h2{
+    color: #FFF;
+    width: 333px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+    margin-bottom: 0px;
+}
+.footer-right p{
+    padding-top: 14px;
+    color: var(--grey, #F4F6FC);
+    width: 399px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 0px;
+}
+.footer-right .social-links{
+    margin-top: 28px;
+}
+.footer-right .social-links a i{
+    color: white;
+    font-size: 20px;
+    padding-left: 26.67px;    
+}
+.footer-right .social-links a:first-child i{
+    padding-left: 0px;
+}
+.infos{
+    background: rgba(252, 217, 128, 1);
+    padding: 17px 137px 16px 37px;
+}
+.left-info .email{
+    color: var(--dark-blue, #282938);
+    font-family: 'Poppins',sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 0px;
+}
+.left-info .text{
+    color: var(--dark-blue, #282938);
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 0px;
+}
+.right-info{
+    margin-left: 29px;
+}
+.right-info .call{
+    color: var(--dark-blue, #282938);
+    font-family: 'Poppins',sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 0px;
+}
+.right-info .number{
+    margin-bottom: 0px;
+    color: var(--dark-blue, #282938);
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+/* Footer Part CSS End */
+
+/* Footer Bottom CSS Start */
+#footer-bottom{
+    background: #FFF;
+}
+.copyright{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.copyright p{
+    color: var(--dark-blue, #282938);
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 0px;
+}
+.footer-items{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.footer-items ul li a{
+    padding-left: 32px;
+    color: var(--dark-blue, #282938);
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+.footer-items ul li:first-child a{
+    padding-left: 0px;
+}
+/* Footer Bottom CSS End */
